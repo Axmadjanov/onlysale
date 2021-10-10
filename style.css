@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  padding-left: 10px;
+  color: black;
+  cursor: pointer;
+}
+li {
+  list-style: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 0 20px;
+}
+span {
+  background-color: blue;
+  font-size: 25px;
+  padding: 0 8px;
+  border-radius: 10px;
+}
+.ul {
+  width: 100%;
+  height: 3rem;
+  background: #555;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.companysale {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.companysale img {
+  width: 250px;
+  height: 200px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.companysale h2 {
+  text-align: center;
+  color: #555;
+}
+.smasung {
+  width: 250px;
+  height: 250px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: 0 2px 5px 2px #111;
+  cursor: pointer;
+}
+.iphone {
+  width: 250px;
+  height: 250px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: 0 2px 5px 2px #111;
+  cursor: pointer;
+}
+.huawei {
+  width: 250px;
+  height: 250px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: 0 2px 5px 2px #111;
+  cursor: pointer;
+}
+.redmi {
+  width: 250px;
+  height: 250px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: 0 2px 5px 2px #111;
+  cursor: pointer;
+}
+.latest {
+  text-align: center;
+}
+.slide2 img {
+  width: 100%;
+  height: 90vh;
+}
+h1 {
+  text-align: center;
+}
+.samsungteli {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.card {
+  width: 300px;
+  box-shadow: 0 2px 5px 2px #111;
+}
+.card img {
+  width: 100%;
+  height: 200px;
+}
+.yuqoriga {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  background: #555;
+  border-radius: 50%;
+  cursor: pointer;
+  position: fixed;
+  top: 550px;
+  right: 30px;
+}
